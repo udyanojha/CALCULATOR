@@ -1,0 +1,41 @@
+:root {
+    font-size: 24px;
+}
+body {
+    font-family: serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.calculator {
+    width: 500px;
+    position: absolute;
+    left: 25%;
+}
+
+.output {
+    height: 120px;
+    /* width: 5px; */
+    background-color: beige;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 1px;
+    padding: 0.5rem;
+}
+
+
+
+
+/* colors */
+.white {
+    background-color: lightgray;
+    color: black;
+}
+
+.red {
+    background-color: #701010;
+    color: white;
+}
